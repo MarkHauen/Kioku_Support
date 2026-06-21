@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kioku – Keep Your Health Private</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background: #f8f8f8;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+
+        .hero-buttons {
+            margin-top: 30px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            font-size: 1em;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #c0392b;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #2c3e50;
+        }
+
+        .btn-secondary:hover {
+            background: #ecf0f1;
+            transform: translateY(-2px);
+        }
+
+        .section {
+            background: white;
+            margin: 40px 0;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .feature {
+            text-align: center;
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .feature h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .feature p {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .highlight {
+            background: #ecf0f1;
+            padding: 20px;
+            border-left: 4px solid #e74c3c;
+            margin: 20px 0;
+        }
+
+        .highlight strong {
+            color: #2c3e50;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            .section {
+                padding: 25px;
+                margin: 20px 0;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kioku</h1>
+        <p>Take your medications on time. Track your habits. Keep your health private.</p>
+        <div class="hero-buttons">
+            <a href="https://apps.apple.com/app/kioku" class="btn btn-primary">Download on App Store</a>
+            <a href="#features" class="btn btn-secondary">Learn More</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="section" id="features">
+            <h2>✨ Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">💊</div>
+                    <h3>Medication Reminders</h3>
+                    <p>Schedule your medications, get reminders on iPhone and Apple Watch, and log doses as you take them.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🏆</div>
+                    <h3>Habit Tracking</h3>
+                    <p>Build healthy habits with daily reminders, streaks, and gamified celebrations for your wins.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Privacy First</h3>
+                    <p>All data encrypted on your device. No accounts, no tracking, no third-party sharing.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">⌚</div>
+                    <h3>Apple Watch Sync</h3>
+                    <p>Access your medications and habits right from your wrist. Instant sync between devices.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🌙</div>
+                    <h3>Dark Mode</h3>
+                    <p>Comfortable to use any time of day with beautiful light and dark mode themes.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📱</div>
+                    <h3>Offline Ready</h3>
+                    <p>Works without an internet connection. Your data stays on your device.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>🛡️ Security & Privacy</h2>
+            <p>Your health data is deeply personal. That's why Kioku uses industry-standard encryption to protect your information:</p>
+            <div class="highlight">
+                <strong>✓ Local Encryption</strong> — All medication and habit data encrypted at rest using AES-256-GCM<br>
+                <strong>✓ No Accounts</strong> — No login required, no cloud syncing to servers (unless you choose to use your own backend)<br>
+                <strong>✓ No Tracking</strong> — No analytics, no ads, no third-party SDKs<br>
+                <strong>✓ Device Control</strong> — Keys stored in the Keychain, protected by your device
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>🤔 FAQ</h2>
+            <p><strong>Will Kioku work offline?</strong></p>
+            <p>Yes. Kioku works entirely offline. Reminders, medication logging, and habit tracking all work without an internet connection.</p>
+
+            <p style="margin-top: 20px;"><strong>What about syncing to my iPhone and Apple Watch?</strong></p>
+            <p>iPhone and Apple Watch sync automatically using end-to-end encryption. Your data never touches the internet unless you explicitly set up your own personal backend.</p>
+
+            <p style="margin-top: 20px;"><strong>Does Kioku sell my data?</strong></p>
+            <p>Absolutely not. We don't collect it, don't share it, and don't have accounts or logins. Your data belongs to you.</p>
+
+            <p style="margin-top: 20px;"><strong>Is Kioku free?</strong></p>
+            <p>Yes, Kioku is available for free on the Apple App Store. No subscriptions, no ads, no hidden fees.</p>
+
+            <p style="margin-top: 20px;"><strong>How do I get help?</strong></p>
+            <p>Visit our <a href="support.html">support page</a> for FAQs, or reach out via the Support URL in the App Store.</p>
+        </section>
+
+        <section class="section" style="text-align: center; background: #ecf0f1;">
+            <h2>Ready to take control of your health?</h2>
+            <p style="margin: 15px 0;">Download Kioku for free on the Apple App Store.</p>
+            <a href="https://apps.apple.com/app/kioku" class="btn btn-primary" style="margin-top: 20px;">Get Kioku</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Kioku. Built with privacy in mind.</p>
+        <p style="margin-top: 10px;">
+            <a href="https://kioku.app/privacy">Privacy Policy</a> •
+            <a href="support.html">Support</a> •
+            <a href="https://github.com">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
