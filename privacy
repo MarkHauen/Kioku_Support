@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kioku – Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #f8f8f8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .meta {
+            font-size: 0.9em;
+            opacity: 0.85;
+            margin-top: 15px;
+        }
+
+        .section {
+            background: white;
+            margin: 25px 0;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            margin-top: 0;
+            color: #2c3e50;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 10px;
+        }
+
+        .section h3 {
+            font-size: 1.1em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .section p {
+            margin-bottom: 12px;
+            color: #333;
+        }
+
+        .section ul {
+            margin: 15px 0 15px 30px;
+            color: #333;
+        }
+
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        .section strong {
+            color: #2c3e50;
+        }
+
+        .summary-box {
+            background: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+
+        .summary-box h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        .summary-box ul {
+            margin-left: 20px;
+        }
+
+        .summary-box li {
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 15px 0;
+            font-size: 0.95em;
+        }
+
+        .contact-info {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 15px 0;
+            font-size: 0.95em;
+        }
+
+        .contact-info strong {
+            display: block;
+            margin-top: 10px;
+            color: #2c3e50;
+        }
+
+        .contact-info strong:first-child {
+            margin-top: 0;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        table th,
+        table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        table th {
+            background: #f5f5f5;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        table tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        table a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        table a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .back-button:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.6em;
+            }
+
+            .section {
+                padding: 20px;
+                margin: 15px 0;
+            }
+
+            .section h2 {
+                font-size: 1.2em;
+            }
+
+            table {
+                font-size: 0.9em;
+            }
+
+            table th,
+            table td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kioku Privacy Policy</h1>
+        <div class="meta">
+            <p><strong>Effective date:</strong> June 21, 2026</p>
+            <p><strong>Last updated:</strong> June 21, 2026</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <a href="marketing.html" class="back-button">← Back to Kioku</a>
+
+        <div class="section">
+            <p style="font-size: 1.05em; line-height: 1.8;">This Privacy Policy explains how the Kioku app ("Kioku," "the app," "we," "us," or "our") handles your information. Kioku is a medication reminder app for iPhone and Apple Watch. Please read this policy carefully. If you do not agree with it, please do not use the app.</p>
+        </div>
+
+        <div class="summary-box">
+            <h3>📋 Plain-language summary</h3>
+            <ul>
+                <li>Kioku stores your medicine information <strong>on your own devices</strong>.</li>
+                <li>Your information is <strong>encrypted</strong> on your iPhone and Apple Watch.</li>
+                <li>We <strong>do not collect, sell, rent, or share</strong> your information.</li>
+                <li>Your data is <strong>not sent to us</strong> or to any third party or cloud service.</li>
+                <li>You can <strong>delete your information at any time</strong> by removing medications or deleting the app.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>1. Who we are</h2>
+            <p>Kioku is developed and provided by <strong>[INSERT DEVELOPER / COMPANY LEGAL NAME]</strong> ("the developer").</p>
+            <p>For any privacy questions or requests, contact us at:</p>
+            <div class="contact-info">
+                <strong>Email: [INSERT CONTACT EMAIL]</strong>
+                <strong>[INSERT MAILING ADDRESS, IF REQUIRED FOR YOUR JURISDICTION]</strong>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>2. The information Kioku stores</h2>
+            <p>Kioku is designed to keep your information on your devices. The app lets you create and manage medication records, which may include:</p>
+            <ul>
+                <li><strong>Medication details</strong> you enter: name, dose amount and unit, color/icon, and notes (such as "take with food or water").</li>
+                <li><strong>Reminder schedules</strong>: the times and days you choose to be reminded.</li>
+                <li><strong>Intake history</strong>: which scheduled doses you have marked as taken, and when.</li>
+                <li><strong>NFC tag identifiers</strong>: an identifier linking a physical NFC tag you choose to associate with a medication. NFC tags store a local reference (a <code>kioku://</code> link); they do not store your personal medical details.</li>
+                <li><strong>Apple Watch pairing keys</strong>: cryptographic keys created on your devices to securely sync data between your iPhone and your paired Apple Watch.</li>
+            </ul>
+
+            <h3>Kioku does not collect:</h3>
+            <ul>
+                <li>Your name, email address, phone number, or account credentials (the app has no account or login).</li>
+                <li>Your precise or approximate location.</li>
+                <li>Contacts, photos, microphone, or camera content.</li>
+                <li>Advertising identifiers or analytics/usage tracking.</li>
+                <li>Any data transmitted to the developer or to third-party servers.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>3. How your information is stored and protected</h2>
+            <ul>
+                <li><strong>On-device storage.</strong> Your medication records are stored locally on your iPhone and, if you pair one, your Apple Watch.</li>
+                <li><strong>Encryption at rest.</strong> Records are encrypted on the device using industry-standard cryptography (AES‑GCM 256‑bit encryption via Apple's CryptoKit), with keys protected by the device.</li>
+                <li><strong>Encryption in transit between your devices.</strong> When you pair your Apple Watch, your iPhone and Watch establish a secure channel using public‑key key agreement (Curve25519/ECDH with HKDF key derivation). Medication data synced between your iPhone and Watch is encrypted before being sent over Apple's secure WatchConnectivity link.</li>
+                <li><strong>No developer access.</strong> Because your data stays on your devices and is encrypted, the developer cannot read, retrieve, or recover your medication information.</li>
+            </ul>
+            <p style="margin-top: 15px;">No method of electronic storage is ever 100% secure, but we use these measures to protect your information.</p>
+        </div>
+
+        <div class="section">
+            <h2>4. How your information is used</h2>
+            <p>Information you enter is used only to provide the app's features on your devices, including to:</p>
+            <ul>
+                <li>Display your medication list and today's schedule.</li>
+                <li>Send you local reminders when a dose is due.</li>
+                <li>Let you mark doses as taken and review your intake history.</li>
+                <li>Sync your medications and reminders between your iPhone and paired Apple Watch.</li>
+                <li>Identify a medication when you tap an associated NFC tag.</li>
+            </ul>
+            <p style="margin-top: 15px;">We do <strong>not</strong> use your information for advertising, marketing, profiling, or data mining.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Local notifications</h2>
+            <p>Kioku uses Apple's local notification system to remind you to take your medications. These reminders are scheduled and delivered on your device. Notification content (such as a medication name) may appear on your lock screen based on your device's notification settings, which you control in iOS/watchOS Settings. You can enable or disable notifications at any time.</p>
+        </div>
+
+        <div class="section">
+            <h2>6. Apple Watch and device sync</h2>
+            <p>If you choose to pair an Apple Watch, Kioku syncs your medication reminders and "taken" status between your iPhone and Watch so the information is consistent on both. This sync occurs <strong>directly between your own devices</strong> over Apple's WatchConnectivity framework and is encrypted. You can disconnect your Apple Watch from within the app's Settings at any time, which revokes the pairing keys.</p>
+        </div>
+
+        <div class="section">
+            <h2>7. NFC tags</h2>
+            <p>Kioku can read and write NFC tags that you choose to associate with your medications. Tags store a local reference link (for example, <code>kioku://medication/{identifier}</code>) used to recognize the medication when scanned. NFC functionality is used only when you actively initiate a scan or write.</p>
+        </div>
+
+        <div class="section">
+            <h2>8. Sharing and disclosure</h2>
+            <p>We do <strong>not</strong> sell, rent, trade, or share your information with any third parties. Because your data remains on your devices, there is no information for us to disclose.</p>
+            <p>We may disclose information only if required to do so by law — however, in practice, the developer does not hold or have access to your medication data.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Third-party services</h2>
+            <p>Kioku does not integrate third-party advertising, analytics, tracking, or social media SDKs. The app runs on Apple's operating systems and uses Apple-provided frameworks (such as CryptoKit, UserNotifications, WatchConnectivity, and Core NFC) that operate on your device. Your use of Apple devices and services is also governed by <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.</p>
+        </div>
+
+        <div class="section">
+            <h2>10. Health-related information</h2>
+            <p>Medication information can be sensitive. Kioku treats the information you enter as private and:</p>
+            <ul>
+                <li>does not use it for advertising or marketing;</li>
+                <li>does not share it with third parties;</li>
+                <li>does not use it for data mining or any purpose other than providing the app's features to you.</li>
+            </ul>
+            <p style="margin-top: 15px;">Kioku does not currently integrate with Apple HealthKit. Kioku is <strong>not</strong> a medical device and does not provide medical advice; always follow the guidance of your healthcare provider.</p>
+        </div>
+
+        <div class="section">
+            <h2>11. Children's privacy</h2>
+            <p>Kioku is intended for general audiences and is not directed to children under 13 (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children. Because the app does not collect data, no personal information is gathered from any user, including children.</p>
+        </div>
+
+        <div class="section">
+            <h2>12. Data retention and deletion</h2>
+            <ul>
+                <li>Your information remains on your devices for as long as you keep it in the app.</li>
+                <li>You can delete an individual medication at any time within the app.</li>
+                <li>You can remove all app data by deleting the Kioku app from your iPhone and Apple Watch. Uninstalling the app removes the locally stored, encrypted data associated with it.</li>
+                <li>Disconnecting your Apple Watch in Settings revokes the secure pairing between devices.</li>
+            </ul>
+            <p style="margin-top: 15px;">Because the developer does not store your data, there is no server-side copy to request deletion of.</p>
+        </div>
+
+        <div class="section">
+            <h2>13. Your rights and choices</h2>
+            <p>Depending on where you live, you may have rights under laws such as the EU/UK General Data Protection Regulation (GDPR) or the California Consumer Privacy Act (CCPA/CPRA), including rights to access, correct, delete, or port your personal information, and to object to or restrict certain processing.</p>
+            <p>Because Kioku stores your information only on your own devices and the developer does not collect or have access to it:</p>
+            <ul>
+                <li>You already have full, direct control over your data within the app.</li>
+                <li>You can exercise access, correction, and deletion directly by viewing, editing, or removing your medications, or by deleting the app.</li>
+            </ul>
+            <p style="margin-top: 15px;">If you have questions about your rights, contact us at <strong>[INSERT CONTACT EMAIL]</strong>. We do not "sell" or "share" personal information as those terms are defined under applicable U.S. state privacy laws.</p>
+        </div>
+
+        <div class="section">
+            <h2>14. International users</h2>
+            <p>The app processes data locally on your device in the location where you use it. The developer does not operate servers that receive your medication data, so your information is not transferred to or stored by us in another country.</p>
+        </div>
+
+        <div class="section">
+            <h2>15. Changes to this policy</h2>
+            <p>We may update this Privacy Policy from time to time. When we do, we will revise the "Last updated" date above and, where appropriate, provide notice within the app or on the page where this policy is hosted. Your continued use of the app after changes take effect constitutes acceptance of the updated policy.</p>
+        </div>
+
+        <div class="section">
+            <h2>16. Contact us</h2>
+            <p>If you have any questions or requests regarding this Privacy Policy or your information, contact:</p>
+            <div class="contact-info">
+                <strong>[INSERT DEVELOPER / COMPANY LEGAL NAME]</strong>
+                <strong>Email: [INSERT CONTACT EMAIL]</strong>
+                <strong>[INSERT MAILING ADDRESS, IF APPLICABLE]</strong>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin: 40px 0;">
+            <a href="marketing.html" style="display: inline-block; padding: 12px 30px; background: #e74c3c; color: white; text-decoration: none; border-radius: 6px; font-weight: 600;">Back to Kioku</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Kioku. Built with privacy in mind.</p>
+        <p style="margin-top: 10px;">
+            <a href="marketing.html">Home</a> •
+            <a href="support.html">Support</a> •
+            <a href="https://github.com">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
